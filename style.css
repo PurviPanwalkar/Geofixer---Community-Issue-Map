@@ -1,0 +1,121 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Auth section */
+#auth-section {
+  margin-bottom: 20px;
+}
+
+#auth-section input {
+  padding: 10px;
+  margin: 5px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#auth-section button {
+  padding: 10px 16px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#auth-section button:hover {
+  background-color: #2980b9;
+}
+
+/* Map container */
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #3498db;
+  margin-top: 20px;
+}
+
+/* Admin Panel */
+#admin-panel {
+  background-color: #ffffff;
+  border: 2px solid #2c3e50;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#admin-panel h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#issue-list {
+  list-style: none;
+  padding: 0;
+}
+
+#issue-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#issue-list button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+#issue-list button.resolve {
+  background-color: #2ecc71;
+}
+
+#issue-list button.delete {
+  background-color: #e74c3c;
+}
+
+#issue-list button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  #auth-section input,
+  #auth-section button {
+    width: 90%;
+  }
+
+  #admin-panel {
+    padding: 10px;
+  }
+}
+
+
