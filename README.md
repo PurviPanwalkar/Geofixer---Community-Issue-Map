@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7868aae6-66f5-408a-b8a9-ef794f601626)# Geofixer---Community-Issue-Map
+![image](https://github.com/user-attachments/assets/7868aae6-66f5-408a-b8a9-ef794f601626) Geofixer---Community-Issue-Map
 GeoFixer is a community issue mapping platform that lets users report local problems by clicking on a map. Built with Leaflet.js and Firebase, it features real-time issue tracking, search, authentication, dark mode, and an admin panel for editing, deleting, and resolving reports.
 
 # GeoFixer 🌍
@@ -49,12 +49,6 @@ COMMUNITY-ISSUE-MAP/
 ├── serviceAccountKey.json # Firebase credentials (secured)
 └── style.css # Custom styles
 
-yaml
-Copy
-Edit
-
----
-
 ## 🔧 Setup Instructions
 
 > 💡 This project is already connected to Firebase.
@@ -76,10 +70,12 @@ const firebaseConfig = {
 3. Open index.html in your browser.
 Make sure you’re online to load Leaflet and Firebase from CDNs.
 
-🖼️ Screenshots
+🖼️ Screenshots/Video
 ![image](https://github.com/user-attachments/assets/3faba322-9bed-4408-9946-b90992db7b9f)
 ![image](https://github.com/user-attachments/assets/650c4bbc-74c6-4d01-a9d3-6e289df0a98b)
 ![image](https://github.com/user-attachments/assets/e3efed82-9aa8-47fd-aa61-a7d3a01cd0d2)
+https://drive.google.com/file/d/1JywUznWiiOWtG4hT3ojH_ZZ5fEqOCANt/view?usp=sharing
+
 
 📜 License
 Licensed under the MIT License. Feel free to use and modify this project.
